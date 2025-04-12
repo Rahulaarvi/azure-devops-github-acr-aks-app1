@@ -14,7 +14,7 @@ stages:
         - task: Docker@2
           inputs:
             containerRegistry: 'ManualPipelineServiceConnection'
-            repository: 'azure-devops-github-acr-aks-app1'
+            repository: 'app1nginxaks'
             command: 'buildAndPush'
             Dockerfile: '**/Dockerfile'
             tags: $(tag)
