@@ -7,7 +7,7 @@ stages:
   - stage: Build
     displayName: Build Stage
     jobs:
-      - job: Build and Push
+      - job: Build
         displayName: CreatingPushing
         pool: JRAR
         steps:
