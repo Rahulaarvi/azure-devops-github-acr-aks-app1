@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: jrarsolution.azurecr.io/azure-devops-github-acr-aks-app1
+          image: jrarsolution.azurecr.io/app1nginxaks
           ports:
             - containerPort: 80
 ---
